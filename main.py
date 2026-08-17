@@ -1,7 +1,6 @@
 import helper
 from flask import Flask, request, Response, render_template, redirect, url_for
 app = Flask(__name__)
-app.logger.setLevel('INFO')
 
 @app.route("/")
 def index():
